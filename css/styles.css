@@ -94,6 +94,19 @@ strong {
   height: auto;
 }
 
+.relative {
+  position: relative;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+
 .mt-15 {
   margin-top: 15px; 
 }
@@ -431,7 +444,7 @@ strong {
   margin: 5px 0;
 }
 
-.form__email {
+.formEmail {
   padding: 8px 15px;
   border: 1px solid #ccc;
   width: 50%;
@@ -452,16 +465,7 @@ strong {
   color: #fff;
 }
 
-.relative {
-  position: relative;
-}
-.floatRight {
-  float: right;
-}
-.floatLeft {
-  float: left;
-}
-
+/* photo credits box */
 .creditBox {
   position: absolute;
   bottom: 0;
